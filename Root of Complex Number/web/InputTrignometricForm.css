@@ -1,0 +1,70 @@
+/* Style the body */
+body{
+     background-image: url("blue.jpg");
+}
+
+/* Style the element with the id "header1" */
+#header1{
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+/* Style the element with the id "valueK" */
+#valueK{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 70%;
+   text-align: center;
+}
+
+/* Style the element with the id "K" */
+#k{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 110%; 
+   text-align: center;
+   border-style: solid;
+   
+}
+
+
+/* Style the element with the id "ROOT" */
+#ROOT{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 70%;
+   text-align: center;
+}
+
+
+/* Style the element with the id "root" */
+#root{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 110%;
+   text-align: center;
+   border-style: solid;
+}
+
+/* Style the element with the class "Input" */
+.Input{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 130%;
+   text-align: center;
+}
+
+.button{
+        background-color: white;
+        border: none;
+        color: black;
+        font-size: 16px;
+        padding: 10px 32px;
+        text-align: center;
+        cursor: pointer;
+}

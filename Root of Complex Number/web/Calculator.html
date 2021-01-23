@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title of the web -->
+    <title>complex number root calculator</title>
+    <link rel="stylesheet" type="text/css" href="Calculator.css">
+    <script src="Calculation.js"></script>
+</head>
+<body>
+        <!-- Header -->   
+        <div id = "header1">
+        complex number root calculator
+        </div>
+        <p>
+            <form>
+                <!-- Class forms -->   
+                <br>
+                <div class = "forms">
+                Forms of complex number:
+                <select id="mySelect" onchange="myFunction1()">
+                <option value=""></option>
+                <option value="algebraic form">algebraic</option>
+                <option value="trignometric form">trignometric</option>
+                </select>
+                <br>
+                
+                <!-- Header form -->   
+                <p id="Form"></p>
+                <br>
+                
+                <!-- button -->   
+                <button type="button" class="button" onclick="document.getElementById('algebraicForm').style.display='block'">display algebraic form</button>
+                <!-- button -->   
+                <button type="button" class="button" onclick="location.href='InputAlgebraicForm.html';">input algebraic form</button>
+                
+                <!-- button -->   
+                <button type="button" class="button" onclick="document.getElementById('trignometricForm').style.display='block'">display trignometric form</button>
+                <!-- button -->   
+                <button type="button" class="button" onclick="location.href='InputTrignometricForm.html';">input trignometric form</button>
+                
+                <!-- Header algebraicForm -->   
+                <p id="algebraicForm" style="display:none"> a+bi, where a and b are real numbers</p>
+                <!-- Header trignometricForm -->   
+                <p id="trignometricForm" style="display:none"> r(cosθ+isinθ), where r is real number, θ is in radian</p>
+               
+                </div>
+            
+             </form>
+        </p>
+        <!-- Class center -->  
+        <img src="calculator.png" alt="Trulli" width="60" height="328" class="center">
+</body>
+</html>
+

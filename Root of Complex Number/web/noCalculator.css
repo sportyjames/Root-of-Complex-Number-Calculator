@@ -1,0 +1,71 @@
+/* Style the body */
+body{
+    background-image: url("blue.jpg");
+}
+
+/* Style the element with the id "Tutorial" */
+#Tutorial{
+    color: yellowgreen;
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/* Style the element with the class "navigation" */
+.navigation{
+   color: yellowgreen;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   text-align: center;
+}
+
+/* Style the button */
+.button{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/* Style the element with the id "calculator" */
+#calculator{
+  width: 100%;
+  height: 100px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style the button1 */
+.button1 {
+    border-radius: 50%;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    font-size: 20px;
+}
+
+/* Style the button1 */
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* Style the iframe */
+iframe {
+  margin: auto;
+  padding: 10px;
+  display: block;
+}
